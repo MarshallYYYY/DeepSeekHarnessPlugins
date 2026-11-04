@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+.pnp.*
+
+# Build output and caches
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+.cache/
+.vite/
+.turbo/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Test artifacts
+playwright-report/
+test-results/
+blob-report/
+
+# OS metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+Thumbs.db
+ehthumbs.db
+desktop.ini
+Desktop.ini
+
+# Editor and local history
+.idea/
+.vscode/
+.history/
+*.swp
+*.swo
+*~
+
+# Temporary and merge leftovers
+tmp/
+temp/
+.tmp/
+*.orig
+*.rej
+
+# Local package archives
+*.tgz
