@@ -3,6 +3,12 @@
   "version": "1.2.0",
   "private": true,
   "description": "Turn navigation rail with prompt summaries, right-click renaming, latest-turn following, and large/original mark sizing.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarshallYYYY/DeepSeekHarnessPlugins.git",
+    "directory": "turn-summary"
+  },
   "type": "module",
   "exports": {
     ".": "./index.js",
